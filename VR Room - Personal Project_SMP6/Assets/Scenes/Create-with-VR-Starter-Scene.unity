@@ -2387,7 +2387,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 817630714}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.1623597, y: -0.69781625, z: -1.5352392}
+  m_LocalPosition: {x: 2.127, y: -0.69781625, z: -0.055}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3306,7 +3306,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1170106218}
         m_TargetAssemblyTypeName: ToggleLight, Assembly-CSharp
-        m_MethodName: TurnOn
+        m_MethodName: Flip
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3318,19 +3318,7 @@ MonoBehaviour:
         m_CallState: 2
   m_Deactivated:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1170106218}
-        m_TargetAssemblyTypeName: ToggleLight, Assembly-CSharp
-        m_MethodName: TurnOff
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   m_StartingHoverFilters: []
   m_StartingSelectFilters: []
   m_StartingInteractionStrengthFilters: []
@@ -3498,7 +3486,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 895881063}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.106, y: 3.0347, z: -4.225}
+  m_LocalPosition: {x: 3.286, y: 1.47, z: -2.647}
   m_LocalScale: {x: 0.1452075, y: 0.24626018, z: 0.1472}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6610,7 +6598,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 4294967295
   m_DistanceCalculationMode: 1
   m_SelectMode: 1
   m_FocusMode: 1
@@ -7316,7 +7304,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 4294967295
   m_DistanceCalculationMode: 1
   m_SelectMode: 1
   m_FocusMode: 1
@@ -7535,7 +7523,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1899553561}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 22.26101, y: -2.8382373, z: -3.2484925}
+  m_LocalPosition: {x: 23.26, y: -2.8382373, z: -1.85}
   m_LocalScale: {x: 2, y: 2, z: 1.4763}
   m_ConstrainProportionsScale: 0
   m_Children: []
